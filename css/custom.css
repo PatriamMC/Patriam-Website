@@ -1,6 +1,24 @@
 /* Front Version 7.2
 Created by Jerred Shepherd (RiotShielder) */
 
+:root {
+    --background-color: #fff;
+    --text-color: #121416d8;
+    --link-color: #543fd7;
+}
+
+html[data-theme='light'] {
+    --background-color: #fff;
+    --text-color: #121416d8;
+    --link-color: #543fd7;
+}
+
+html[data-theme='dark'] {
+    --background-color: #212a2e;
+    --text-color: #F7F8F8;
+    --link-color: #828fff;
+}
+
 body, p, a {
     font-family: 'Open Sans', sans-serif;
 }
