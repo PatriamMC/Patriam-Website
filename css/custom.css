@@ -1,21 +1,16 @@
 /* Front Version 7.2
 Created by Jerred Shepherd (RiotShielder) */
 
-body,
-p,
-a {
+body, p, a {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
-}
 
+background-color: #181A1B;
+
+}
 body {
     color: #5a5a5a;
 }
@@ -45,7 +40,6 @@ body {
 
 
 /* HOME PAGE */
-
 .bg-container {
     overflow-x: hidden;
 }
@@ -55,7 +49,7 @@ body {
     width: 1920px;
     clip: auto;
     display: block;
-    margin: auto;
+    margin: auto; 
 }
 
 .home-text {
@@ -89,7 +83,7 @@ body {
 }
 
 .img-border {
-    border: 8px solid rgba(151, 151, 151, .34);
+    border: 8px solid rgba(151,151,151,.34);
 }
 
 .marketing {
@@ -113,20 +107,18 @@ body {
 
 
 /* PLAY PAGE */
-
 .play-servertitle {
     margin-top: 10px
 }
 
 
 /* SHOP PAGE */
-
 .productbox {
     background-color: #ffffff;
     padding: 10px;
     margin-bottom: 10px;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
+    -webkit-box-shadow: 0 8px 6px -6px  #999;
+    -moz-box-shadow: 0 8px 6px -6px  #999;
     box-shadow: 0 8px 6px -6px #999;
 }
 
@@ -152,7 +144,6 @@ body {
 
 
 /* STAFF PAGE */
-
 .staff-img:hover {
     -webkit-box-shadow: 0px 0px 20px 5px #000;
     box-shadow: 0px 0px 20px 3px #000;
@@ -163,91 +154,4 @@ body {
     -webkit-box-shadow: 0px -0px 0px #000;
     box-shadow: 0px -0px 0px #000;
     transition: all 0.5s ease;
-}
-
-.row {
-    position: relative;
-    float: left;
-    top: 40px;
-    animation-duration: 1s;
-    animation-name: thrust;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-
-.col-lg-4:nth-child(1) {
-    width: 100px;
-    height: 120px;
-    background-color: red;
-    float: left;
-    border-radius: 30% 30% 20% 60%;
-    margin: -10px -5% 0 0;
-}
-
-.col-lg-4>img {
-    visibility: hidden
-}
-
-.col-lg-4:nth-child(2) {
-    width: 400px;
-    height: 100px;
-    background-color: red;
-    float: left;
-}
-
-.col-lg-4:nth-child(3) {
-    width: 250px;
-    height: 250px;
-    background-color: red;
-    float: left;
-    border-radius: 0 20% 50% 50%;
-}
-
-@keyframes thrust {
-    from {
-        margin-left: 0px;
-    }
-    to {
-        margin-left: -450px;
-    }
-}
-
-.container {
-    top: 0;
-    position: absolute;
-}
-
-.bg-container {
-    width: 75px;
-    height: 200px;
-    background-color: blue;
-    z-index: 999;
-    position: relative;
-    float: left;
-    top: 0;
-    left: 0;
-    margin: 0;
-    box-shadow: 20px 0 10px -20px #000;
-    border-radius: 0 0 120px 0;
-    overflow: hidden !important;
-}
-
-.bg-container>* {
-    visibility: hidden;
-}
-
-.navbar-wrapper>* {
-    visibility: hidden;
-}
-
-.navbar-wrapper {
-    width: 150px;
-    height: 200px;
-    background-color: blue;
-    z-index: -999;
-    position: absolute;
-    border-radius: ;
-    top: 0;
-    left: 0;
-    border-radius: 0 0 120px 0;
 }
