@@ -64,12 +64,12 @@ body {
 
 .home-title {
     font-size: 80px;
-    text-shadow: 3px 3px 0px ;
+    text-shadow: 3px 3px 0px #000;
 }
 
 .home-desc {
     font-size: 17px;
-    text-shadow: 2px 2px 0px ;
+    text-shadow: 2px 2px 0px #000;
     max-width: 40vw;
 }
 
