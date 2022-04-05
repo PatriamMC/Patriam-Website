@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+.jumbotron {
+    background-color: transparent;
+  }
+
 .navbar-wrapper {
     position: absolute;
     top: 0;
