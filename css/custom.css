@@ -31,11 +31,13 @@ body {
 .navbar-wrapper .container {
     padding-right: 0;
     padding-left: 0;
+    color: 1c1e1f;
 }
 
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
+    color: 1c1e1f;
 }
 
 .accent {
